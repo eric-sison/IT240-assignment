@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 #include "stack.h"
-extern int top;
+extern static int top;
 
 void application()
 {
