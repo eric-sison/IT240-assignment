@@ -1,4 +1,4 @@
-#include <iostream>
+#include <cstdio>
 #include "stack.h"
 using namespace std;
 
@@ -18,7 +18,7 @@ void stack::push(char x)
     }
     else
     {
-        cout << "full" << endl;
+        printf("full\n");
     }
 }
 
@@ -32,7 +32,7 @@ char stack::pop()
     }
     else
     {
-        cout << "empty" << endl;
+        printf("empty\n");
         return 0; // makes sure something is returned regardless
     }
 }
