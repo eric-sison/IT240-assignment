@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include "stack.h"
 
-char Store[MAX];
-int top = 0;
+static char Store[MAX];
+static int top = 0;
 
 void push(char x)
 {
