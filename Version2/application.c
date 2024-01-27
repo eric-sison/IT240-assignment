@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 #include "stack.h"
-/* extern int top; */
+extern int top;
 
 void application()
 {
@@ -9,7 +9,7 @@ void application()
    push( 'y' );
    push( 'z' );
 
-   /* top = 2; */
+   top = 2;
    char ans = pop();
    printf( "popped: %c\n", ans );
 }
