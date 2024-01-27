@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "stack.h"
 
-static  Store[MAX];
+char Store[MAX];
 int top = 0;
 
 void push(char x)
