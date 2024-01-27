@@ -9,7 +9,7 @@ void application()
    push( 'y' );
    push( 'z' );
 
-   static int top = 2;
+   top = 2;
    char ans = pop();
    printf( "popped: %c\n", ans );
 }
